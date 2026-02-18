@@ -32,6 +32,7 @@ body {
     -webkit-tap-highlight-color: transparent;
     user-select: none;
     touch-action: manipulation;
+    z-index: 100000;
     transition: transform 0.3s ease, filter 0.3s ease;
 }
 
