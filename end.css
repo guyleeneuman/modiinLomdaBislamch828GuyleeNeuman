@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    background-image: url("assets/background/gotItBackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width:90vw;
+    transform: translateX(-50%);
+}
+
+.byGuylee{
+    position: absolute;
+    top: 92%;
+    left: 55%;
+    transform: translateX(-50%);
+
+}
+
+.button {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;    
+    -webkit-tap-highlight-color: transparent;
+    user-select: none;
+    touch-action: manipulation;
+    z-index: 10000;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.button:hover {
+    transform: translateX(-50%) scale(1.1);
+    filter: drop-shadow(0 0 12px rgba(255, 255, 255, 0.8));
+}
+
+.button:active {
+    transform: translateX(-50%) scale(0.95);
+}
+
+
+.mapBtn {
+    position: absolute;
+    top: 75%;
+    left: 52%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* רמת השחרה */
+    z-index: 999;
+}
+
+.popUp {
+    position: fixed;
+    top: 20%;
+    left: 52%;
+    transform: translateX(-50%);
+    z-index: 1000; /* מעל ההשחרה */
+}
+
+.subject1,.subject2,.subject3,.subject4,.subject5,.subject6,.subject7 {
+   cursor: pointer;
+}
+
+.subject1 {
+    position: absolute;
+    width: 50%;
+    top: 28%;
+    left: 80%;
+    transform: translateX(-50%);
+
+}
+
+.subject2 {
+    position: absolute;
+    width: 50%;
+    top: 30%;
+    left:55%;
+    transform: translateX(-50%);
+}
+
+.subject3 {
+    position: absolute;
+    width: 50%;
+    top: 28%;
+    left: 20%;
+    transform: translateX(-50%);
+}
+
+.subject4 {
+    position: absolute;
+    width: 50%;
+    top: 45%;
+    left: 77%;
+    transform: translateX(-50%);
+}
+
+.subject5 {
+    position: absolute;
+    width: 50%;
+    top: 42%;
+    left:39%;
+    transform: translateX(-50%);
+}
+
+.subject6 {
+    position: absolute;
+    width: 50%;
+    top: 54%;
+    left: 65%;
+    transform: translateX(-50%);
+}
+
+.subject7 {
+    position: absolute;
+    width: 50%;
+    top: 54%;
+    left: 18%;
+    transform: translateX(-50%);
+}
+
+.title {    
+    position: absolute;
+    top: 6%;
+    left: 72%;
+    transform: translateX(-50%);
+
+}
+
+.text{
+    position: absolute;
+    top: 24%;
+    left: 65%;
+    transform: translateX(-50%);
+}
+
+.thankOverlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 999;
+    display: none; /* מוסתר בהתחלה */
+}
+
+.thankYou {
+    position: fixed;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none; /* מוסתר בהתחלה */
+}
